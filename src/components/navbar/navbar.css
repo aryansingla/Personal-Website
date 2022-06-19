@@ -1,0 +1,70 @@
+.Navbar {
+    border: solid 1px #151719;
+    color: white;
+    background-color: #151719;
+
+}
+
+.Navbar_Content {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+
+
+}
+
+.Headline {
+    width: 30%;
+    padding-left: 200px;
+    font-size: 50px;
+    font: 600;
+    font-family: "Poppins ExtraBold";
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    margin-left: 80px;
+}
+
+.list li a {
+    height: 40px;
+    line-height: 43px;
+    margin: 6px;
+    padding: 0px 23px;
+    display: flex;
+    font-size: 1.0em;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list li a:hover {
+    background-color: #5658dd;
+    color: #ECEDED;
+    /* box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2); */
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .Navbar {
+        width: 100vh;
+
+    }
+
+    .Headline {
+        padding-left: 40px;
+        font-size: 4rem;
+    }
+
+    .list {
+        margin-left: 61px;
+        font-size: 2rem;
+        padding-top: 8px;
+    }
+}

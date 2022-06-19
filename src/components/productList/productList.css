@@ -1,0 +1,145 @@
+.pl {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: whitesmoke;
+  margin-top: -1px;
+}
+
+.pl-texts {
+  width: 65%;
+  /* border: solid 1px white; */
+}
+
+.pl-title {
+  color: #151719;
+  margin-top: -40px;
+  font-weight: 600;
+  font-family: Poppins;
+  font-size: 40px;
+}
+
+.pl-desc {
+  margin: 20px 0px;
+}
+
+.pl-list {
+  width: 114%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: solid 1px black;
+  margin-top: 20px;
+  box-shadow: 5px 5px 40px -4px black;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.technical {
+  width: 100%;
+  font-size: x-large;
+  padding-top: 20px;
+  text-align: center;
+  /* border: solid 1px white; */
+  line-height: 50px;
+  padding-right: 200px;
+}
+
+.others {
+  width: 100%;
+  font-size: x-large;
+  padding-top: 20px;
+  text-align: center;
+  /* border: solid 1px white; */
+  line-height: 50px;
+
+}
+
+/* .vertical {
+  height: 300px;
+  position: absolute;
+  border: 0.1px solid white;
+  background-color: white;
+  margin-top: 30px;
+  box-shadow: 1px 0px 3px white;
+} */
+
+@media screen and (max-width: 480px) {
+  .pl {
+    padding: 10px;
+  }
+
+  .pl-texts {
+    width: 100%;
+  }
+
+  .pl-desc {
+    display: none;
+  }
+}
+
+.certificate {
+  padding-top: 20px;
+  height: 10%;
+  margin-left: 10px;
+  border: solid 1px #151719;
+  margin-top: 40px;
+  margin-right: 0px;
+  margin-left: 350px;
+  background-color: white;
+  border: 6px solid;
+  border-image: linear-gradient(to bottom right, #9795EF, #F9C5D1) 1;
+
+}
+
+.certificate img {
+  height: 500px;
+}
+
+.skillset {
+  margin-right: 45%;
+}
+
+.pl-subtitle {
+  color: #151719;
+  font-size: 15px;
+  letter-spacing: 4px;
+  font-weight: 300;
+}
+
+.pl-seperatorline2 {
+  width: 40%;
+  height: 2px;
+  background-color: #1f221f;
+  margin-top: 16px;
+  margin-left: 270px;
+}
+
+.pl-seperatorblob2 {
+  height: 10px;
+  width: 10%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 360px;
+  padding-top: 12px;
+}
+
+.pl-seperatorblob2 div {
+  width: 35px;
+  border-radius: 10px;
+  background-color: #5658dd;
+}
+
+.pl-desgin {
+  /* border: solid 1px black; */
+  margin-right: 382px;
+
+}

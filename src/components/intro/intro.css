@@ -1,0 +1,289 @@
+.i {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  background-color: #151719;
+  /* border: 1px solid white; */
+  height: 56vh;
+}
+
+.i-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid white; */
+  width: 80%;
+
+}
+
+.i-right {
+  flex: 1;
+  /* position: relative; */
+  /* border: 1px solid white; */
+  width: 40%;
+}
+
+.i-left-wrapper {
+  padding-top: 2px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.i-intro {
+  font-size: 20px;
+  font-weight: 300;
+  border: 1px solid white;
+  width: 50%;
+  margin-left: 285px;
+  margin-top: 24px;
+}
+
+.i-name {
+  width: 35%;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: x-large;
+  /* border: 1px solid white; */
+}
+
+.i-title {
+  overflow: hidden;
+  height: 30px;
+  margin-top: 20px;
+  padding: 34px;
+  /* border: 1px solid white; */
+  width: 734px;
+  margin-left: 100px;
+
+}
+
+.i-title-wrapper {
+  animation: move 10s ease-in-out infinite alternate;
+  margin-top: 40px;
+  height: 50vh;
+}
+
+
+@keyframes move {
+  25% {
+    transform: translateY(-50px);
+  }
+
+  50% {
+    transform: translateY(-100px);
+  }
+
+  75% {
+    transform: translateY(-150px);
+  }
+
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+.i-title-item {
+  height: 60px;
+  font-size: 23px;
+  font-weight: bold;
+  color: #6B6DFF;
+  display: flex;
+  align-items: center;
+  margin-left: 151px;
+  width: 452px
+}
+
+.i-scroll {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.i-img {
+  height: 50%;
+  object-fit: cover;
+  position: absolute;
+  margin-top: 10px;
+  margin-right: 80px;
+  margin-left: 100px;
+  margin-bottom: 240px;
+  box-shadow: 2px 2px 40px -6px white;
+}
+
+.i-desc {
+  /* margin-top: 100px; */
+  /* border: 1px solid white; */
+  margin-left: 85px;
+  margin-top: 50px;
+  width: 92%;
+  text-align: center;
+  color: whitesmoke
+}
+
+
+
+.i-btn {
+  display: flex;
+  margin-top: 21px;
+  /* border: 1px solid white; */
+  width: 50%;
+  margin-left: 330px;
+}
+
+.left-btn1 {
+  margin: 20px;
+  padding-top: 12px;
+  background-color: #ECEDED;
+  color: #6B6DFF;
+  width: 150px;
+  text-align: center;
+  font-size: large;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+
+}
+
+.left-btn2 {
+  margin: 20px;
+  padding-top: 12px;
+  background-color: #5658dd;
+  width: 150px;
+  text-align: center;
+  font-size: large;
+  color: #ECEDED;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.i-img2 {
+  height: 100%;
+  /* object-fit: cover; */
+  /* position: absolute; */
+  width: 100%;
+}
+
+.social-handles {
+  /* border: solid 1px white; */
+  margin-left: 25px;
+  margin-bottom: 280px;
+
+}
+
+.social-icons {
+  font-size: 40px;
+  /* cursor: pointer; */
+  padding-top: 10px;
+  color: white;
+}
+
+.social-icons:hover {
+  cursor: pointer;
+
+}
+
+#Linkedin:hover {
+  color: rgb(117, 162, 240);
+}
+
+#Github:hover {
+  color: pink;
+}
+
+#Twitter:hover {
+  color: rgb(96, 193, 232);
+}
+
+#Insta:hover {
+  color: rgb(201, 74, 95);
+}
+
+/* 
+@media screen and (max-width: 768px) {
+
+  .i {
+    display: flex;
+
+    color: white;
+    background-color: #151719;
+    gap: 30px;
+
+    min-height: 56vh;
+    flex-direction: column-reverse;
+  }
+
+  .i-left {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+  }
+
+  .i-left-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .i-intro {
+    font-size: 20px;
+    font-weight: 300;
+    border: 1px solid white;
+    width: 50%;
+    margin-top: 24px;
+  }
+
+  .i-name {
+    width: 35%;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: x-large;
+  }
+
+  .i-desc {
+    margin-top: 100px;
+    border: 1px solid white;
+
+    max-width: 60%;
+
+    color: whitesmoke;
+
+  }
+
+  .i-btn {
+    display: flex;
+    margin-top: 21px;
+
+    width: 50%;
+  }
+
+  .i-right {}
+
+  .i-img {
+    height: 50%;
+    width: 60%;
+    object-fit: cover;
+    margin: 30px auto;
+
+    box-shadow: 2px 2px 40px -6px white
+  }
+
+  .i-img2 {
+    height: 100%;
+
+    width: 100%;
+  }
+} */

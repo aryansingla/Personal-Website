@@ -1,0 +1,118 @@
+.ps-container {
+    display: flex;
+}
+
+.ps-skills {
+    margin-top: 20px;
+}
+
+.ps-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.ps-bar {
+    position: relative;
+    border: 2px solid #5658dd;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.ps-bar div {
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #5658dd;
+}
+
+.ps-container {
+    margin-left: 116px;
+    margin-top: 15px;
+}
+
+.rightps {
+    padding-left: 100px;
+}
+
+#html-bar {
+    animation: html-fill 2s forwards;
+}
+
+@keyframes html-fill {
+    100% {
+        width: 90%;
+    }
+}
+
+#css-bar {
+    animation: css-fill 2s forwards;
+}
+
+@keyframes css-fill {
+    100% {
+        width: 70%;
+    }
+}
+
+#js-bar {
+    animation: js-fill 2s forwards;
+}
+
+@keyframes js-fill {
+    100% {
+        width: 50%;
+    }
+}
+
+#react-bar {
+    animation: react-fill 2s forwards;
+}
+
+@keyframes react-fill {
+    100% {
+        width: 80%;
+    }
+}
+
+#redux-bar {
+    animation: redux-fill 2s forwards;
+}
+
+@keyframes redux-fill {
+    100% {
+        width: 60%;
+    }
+}
+
+#java-bar {
+    animation: java-fill 2s forwards;
+}
+
+@keyframes java-fill {
+    100% {
+        width: 60%;
+    }
+}
+
+#git-bar {
+    animation: git-fill 2s forwards;
+}
+
+@keyframes git-fill {
+    100% {
+        width: 80%;
+    }
+}
+
+#firebase-bar {
+    animation: firebase-fill 2s forwards;
+}
+
+@keyframes firebase-fill {
+    100% {
+        width: 90%;
+    }
+}
