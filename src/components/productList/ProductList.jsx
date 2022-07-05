@@ -28,7 +28,7 @@ const ProductList = () => {
       </div>
       <div className="pl-desgin">
       <div className="certificate">
-     <img src={betaimage} alt="" />
+     <img  className="certi-img" src={betaimage} alt="" />
    </div>
    </div>
     </div>

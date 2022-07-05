@@ -167,7 +167,7 @@ button {
 
 @media screen and (max-width: 480px) {
   .c-wrapper {
-    flex-direction: column;
+    display: grid;
     padding: 0px 50px;
   }
 
@@ -180,25 +180,12 @@ button {
     width: 100%;
   }
 
-  .c-desc {
-    display: none;
-  }
-
-  form {
-    margin-top: 0px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  input {
-    width: 35%;
-    height: 40px;
-    margin: 10px;
-    margin-left: 0;
-  }
-
   button {
     margin-top: 10px;
+  }
+
+  .r-content {
+    display: grid;
   }
 }
 

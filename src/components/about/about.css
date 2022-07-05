@@ -1,10 +1,10 @@
 .a {
   height: 100vh;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
   align-items: center;
   color: #151719;
   background-color: whitesmoke;
-  margin-top: -7px;
 }
 
 .a-left {
@@ -17,7 +17,7 @@
 }
 
 .a-right {
-  flex: 1;
+  display: grid;
 }
 
 .a-card.bg {
@@ -52,14 +52,14 @@
   font-weight: 600;
   color: #151719;
   margin-top: -2px;
-  margin-left: 253px;
+  /* margin-left: 253px; */
   font-family: 'Poppins';
   font-size: 40px;
 
 }
 
 .a-subtitle {
-  margin-left: 261px;
+  /* margin-left: 261px; */
   font-weight: 300;
   letter-spacing: 3px;
 }
@@ -72,10 +72,10 @@
 
 .a-desc {
   font-weight: 400;
-  margin-right: 200px;
+  /* margin-right: 200px; */
   color: #151719;
   /* border: solid 1px black; */
-  width: 650px;
+  /* width: 650px; */
 }
 
 .a-award {
@@ -83,7 +83,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-right: 200px;
+  /* padding-right: 200px; */
 }
 
 
@@ -99,37 +99,13 @@
 
 }
 
-@media screen and (max-width:480px) {
-  .a {
-    flex-direction: column;
-    text-align: center;
-    margin-top: 50px;
-  }
-
-  .a-left {
-    width: 100%;
-  }
-
-  .a-card {
-    height: 30vh;
-  }
-
-  .a-card.bg,
-  .a-award {
-    display: none;
-  }
-
-  .a-right {
-    padding: 20px;
-  }
-}
 
 .seperatorline {
   width: 35%;
   height: 2px;
   background-color: #1f221f;
   margin-top: 13px;
-  margin-left: 200px;
+
 }
 
 .seperatorblob {
@@ -138,7 +114,6 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  margin-left: 262px;
   padding-top: 9px;
 }
 
@@ -176,8 +151,49 @@
   display: flex;
 }
 
-@media only screen and (max-width: 468px) {
+@media screen and (max-width:600px) {
   .a {
-    margin-top: 1000px;
+    flex-direction: column;
+    text-align: center;
+    /* margin-top: -8px; */
   }
+
+  .a-card {
+    height: 30vh;
+  }
+
+  .a-card.bg {
+    display: none;
+  }
+
+  .a-right {
+    width: 100vw;
+    padding: 2rem;
+    /* box-shadow: 2px 2px 10px 3px black; */
+  }
+
+  .a-desc {
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .a-award {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    height: 18vh;
+    background-color: whitesmoke;
+  }
+
+  .a-award-img {
+    border-radius: 20px;
+    cursor: pointer;
+    height: auto;
+    width: 20%;
+  }
+
+  .seperatorline {}
 }
+
+@media screen and (max-width: 768px) {}

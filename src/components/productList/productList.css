@@ -27,7 +27,7 @@
 }
 
 .pl-list {
-  width: 114%;
+  /* width: 114%; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -142,4 +142,20 @@
   /* border: solid 1px black; */
   margin-right: 382px;
 
+}
+
+@media screen and (max-width: 500px) {
+  .certificate {
+    width: 50%;
+  }
+
+  .certificate img {
+    height: 1rem;
+    width: 100%;
+    left: 3%;
+  }
+
+  .pl-seperatorline2 {
+    margin-left: 0;
+  }
 }

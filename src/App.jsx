@@ -1,3 +1,4 @@
+import React from "react";
 import { useContext } from "react";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
@@ -20,10 +21,10 @@ const App = () => {
     >
       {/* <Navbar /> */}
       <Intro />
-      {/* <About />
-      <Resume />
-      <ProductList />
-      <Contact /> */}
+       <About />
+      {/* <Resume /> */}
+      {/* <ProductList /> */}
+      {/* <Contact /> */}
     </div>
   );
 };

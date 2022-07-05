@@ -56,7 +56,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="c-right" style={{backgroundImage:`url(${Contact1})` , backgroundSize:"1050px" , height:"600px" , width:"1050px"}}>
+        <div className="c-right" style={{backgroundImage:`url(${Contact1})` , backgroundSize:"1050px" , height:"600px" , width:"1050px" ,}}>
            
             <div className="r1">
               <h1 className="r-title">Get In Touch</h1>
