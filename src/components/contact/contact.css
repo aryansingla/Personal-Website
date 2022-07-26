@@ -337,6 +337,6 @@ button {
 
 @media screen and (max-width: 380px) {
   .c-bg {
-    height: 123%;
+    height: 120%;
   }
 }
