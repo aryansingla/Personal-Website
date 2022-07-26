@@ -8,7 +8,7 @@ const ProjectList = () => {
             <div className="bullet"></div>
           </div>
           <div className="ed1">
-            <h5>Expense Tracker(Voice command)</h5>
+            <h5>Oxygen Gym</h5>
             </div>
             <div className="ed2">
               <div className="year">
@@ -17,8 +17,8 @@ const ProjectList = () => {
             </div>
         </div>
         <div className="text">
-                <div className="textA">Technologies Used: React JS ,Context API , Material UI ,Speechly</div>
-                <p className="textB">An application used to calculate income and expenses from various sources and can be seen on graph , editable and voice command feature can be used.</p>
+                <div className="textA">Technologies Used: React JS ,Rapid API , Material UI , React Hooks , Javascript</div>
+                <p className="textB">Website for workout of any muscle of human body with youtube tutorials and similar workouts.</p>
             </div>
         <div className="ed">
           <div className="ed0">
@@ -42,17 +42,17 @@ const ProjectList = () => {
             <div className="bullet"></div>
           </div>
           <div className="ed1">
-            <h5>LinkedIn Clone</h5>
+            <h5>VB NEWS</h5>
             </div>
             <div className="ed2">
               <div className="year">
-                June ,2022
+                April ,2022
               </div>
             </div>
         </div>
         <div className="text">
-                <div className="textA">Technologies Used: React JS ,Redux- Toolkit ,Firebase</div>
-                <p className="textB">It is clone of LinkedIn where user can login through google and user can post text , image or video. It is clone of home page.</p>
+                <div className="textA">Technologies Used: React JS , Javascript , Api</div>
+                <p className="textB">Developed a wesbite to get news of different categories like finance , entertainment , science etc.Its a completely responsive website</p>
             </div>
     </div>
   )

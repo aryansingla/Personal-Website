@@ -49,7 +49,7 @@ const ProgSkills = () => {
 
          <div className="ps-skills">
          <div className="ps-details">
-            <span>Redux</span>
+            <span>Redux-Toolkit</span>
             <span>60%</span>
           </div>
          <div className="ps-bar">
@@ -81,7 +81,7 @@ const ProgSkills = () => {
 
                <div className="ps-skills">
                   <div className="ps-details">
-                    <span>Firebase</span>
+                    <span>Netlify</span>
                     <span>90%</span>
                   </div>
                    <div className="ps-bar">
