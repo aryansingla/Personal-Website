@@ -1,6 +1,7 @@
 import personal from './img/personal.png';
 import oxygen from './img/oxygen.png';
-import expense from './img/expense.png';
+import newsapp_ss from './img/newsapp_ss.png';
+
 export const products = [
   {
     id: 1,
@@ -12,7 +13,7 @@ export const products = [
   {
     id: 2,
     name: "VB News India",
-    img: expense,
+    img: newsapp_ss,
     link: "https://github.com/aryansingla/NewsIndia",
     text: "Developed a wesbite to get news of different categories like finance , entertainment , science etc.Its a completely responsive website",
   },
@@ -20,7 +21,7 @@ export const products = [
     id: 3,
     name: "Personal Portfolio",
     img: personal,
-    link: "",
+    link: "https://aryansingla.netlify.app/",
     text: "Developed a personal portfolio project with ReactJs to showcase all my work , provide my contact details , my resume , my academic details , my hobbies and my social nmedia links.I gained knoweldge of how to use hooks , different css properties through this.",
   },
 ];
