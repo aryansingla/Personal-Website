@@ -15,8 +15,8 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_3ba1osf",
-        "template_apl175w",
+        "service_4x11lyc",
+        "template_xtzq1qg",
         formRef.current,
         "U0HKmu56a_qWHvxWz"
       )
@@ -29,10 +29,13 @@ const Contact = () => {
           console.log(error.text);
         }
       );
+      formRef.current.reset();
+      e.target.reset();
   };
 
+
   return (
-    <div className="c" id="c">
+    <div className="c" id="c">   
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
@@ -56,54 +59,68 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="c-right" style={{backgroundImage:`url(${Contact1})` , backgroundSize:"1050px" , height:"600px" , width:"1050px" ,}}>
+        <div className="c-right" style={{backgroundImage:`url(${Contact1})` , backgroundSize:"1050px" ,}}>
            
             <div className="r1">
               <h1 className="r-title">Get In Touch</h1>
               <p className="r-subtitle">Think I'd Good Fit For You ? Drop Me A Line And We Can Get Started!</p>
             <div className="r-content">
-            <div className="rc1">
-              <h4 className="rc1-title">Follow Me Elsewhere</h4>
-              <h4><a href="" className="rc1-subtitle">LinkedIn</a></h4>
-              <h4><a href="" className="rc1-subtitle">Twiiter</a></h4>
-              <h4><a href="" className="rc1-subtitle">Github</a></h4>
-              <h4><a href="" className="rc1-subtitle">Instagram</a></h4>
-            </div>
+            
             <div className="rc2">
-              <div className="rc2up">
-                {/* name and email */}
+                <form ref={formRef} onSubmit={handleSubmit}>
                 <div className="rc2name">
-                <h4 className="rc2name1">Your Name</h4>
                 <input
-              style={{ backgroundColor: "whitesmoke" , width:"220px" , height:"30px"}}
+              style={{ backgroundColor: "whitesmoke" , width:"15rem" , height:"2rem"}}
               type="text"
-              name="user_name"
+              name="name" 
+              placeholder="Your Name"
             />
-                </div>
-                <div className="rc2mail">
-                <h4 className="rc2mail1">Your Email</h4>
-                <input style={{backgroundColor:"whitesmoke" ,width:"220px" , height:"30px"}} type="email" name="user_email"/>
-                </div>
-              </div>
-              <div className="rc2low">
-                {/* message */}
-                <div className="rc2msg">
-                <h4 className="rc2mail1">Message</h4>
-                <input style={{backgroundColor:"whitesmoke" ,width:"510px" , height:"80px"}} type="text" name="message" rows="5"/>
-                </div>
-                <div className="button2">Submit Message</div>
-              </div>
             </div>
+            <div className="rc2mail">
+                <input style={{backgroundColor:"whitesmoke" ,width:"15rem" , height:"2rem"}} type="email" name="email" placeholder="Your Email"/>
+                </div>
+                <div className="rc2msg">
+                <textarea className="mail1" style={{backgroundColor:"whitesmoke" ,}} type="text" name="message" rows="5" placeholder="Your Message"/>
+                </div>
+                <button className="button2">Submit Message</button>
+                {done }
+                </form>
+              </div>
+            
+            <div11 className="rc1">
+              <h4 className="rc1-title">Follow Me Elsewhere</h4>
+              <div className="r-socials">
+              <div><a href="https://www.linkedin.com/in/aryan-singla-26b7481b7" className="rc1-subtitle">LinkedIn</a></div>
+              <div><a href="https://twitter.com/singla_aryan11" className="rc1-subtitle">Twiiter</a></div>
+              <div><a href="https://github.com/aryansingla" className="rc1-subtitle">Github</a></div>
+              <div><a href="https://www.instagram.com/singlaaryan_1102/" className="rc1-subtitle">Instagram</a></div>
+              </div>
+            </div11>
             </div>
             
            </div>
         </div>
       </div>
+      
     </div>
+    
   );
 };
 
 export default Contact;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 {/* <p className="c-desc">
             <b>Want to Connect?</b> Get in touch. Always available for people if
@@ -140,5 +157,38 @@ export default Contact;
            <a className="gotop" href="#n">
             <div className="btn-scroll" href="#n">
               <FaArrowUp className="icn"/>
-              </div>  
+              </div>
+              </a>
            </a> */}
+
+
+
+          //  <div className="rc2">
+          //     //<div className="rc2up">
+          //      <div className="rc2name">
+               
+          //       <form ref={formRef} onSubmit={handleSubmit}>
+          //       <input
+          //     style={{ backgroundColor: "whitesmoke" , width:"220px" , height:"30px"}}
+          //     type="text"
+          //     name="name" 
+          //     placeholder="Your Name"
+          //   />
+            
+          //       </div>
+          //      <div className="rc2mail">
+               
+               
+          //       <input style={{backgroundColor:"whitesmoke" ,width:"220px" , height:"30px"}} type="email" name="email" placeholder="Your Email"/>
+          //       </div>
+          //     </div>
+          //    <div className="rc2low">
+               
+          //       <div className="rc2msg">
+               
+          //       <textarea className="mail1" style={{backgroundColor:"whitesmoke" ,}} type="text" name="message" rows="5" placeholder="Your Message"/>
+          //       </div>
+                
+          //       <button className="button2">Submit Message</button>
+          //        </form> 
+          //     </div>

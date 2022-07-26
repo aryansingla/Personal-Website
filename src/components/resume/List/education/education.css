@@ -52,3 +52,32 @@
 
 
 }
+
+@media screen and (max-width: 480px) {
+    .ed {
+        margin-top: 20px;
+    }
+
+    .ed1 {
+        width: 60%;
+    }
+
+    .ed2 {
+        width: 30%;
+    }
+
+    .year {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 1px;
+        padding-left: 0px;
+        background-color: #5658dd;
+        border-radius: 10px;
+        /* border: solid 1px white; */
+        width: 140%;
+    }
+
+    .ed1 h5 {
+        width: 11rem;
+    }
+}

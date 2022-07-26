@@ -61,3 +61,9 @@
     font-weight: lighter;
     /* border: solid 1px white; */
 }
+
+@media screen and (max-width:480px) {
+    .textB {
+        margin-top: 0px;
+    }
+}

@@ -1,6 +1,7 @@
 #r {
     color: #151719;
     background-color: whitesmoke;
+    margin-top: -6px;
 }
 
 .title {
@@ -56,7 +57,7 @@
 }
 
 .left2 div {
-    height: 40px;
+    height: 48px;
     margin-top: 18px;
     font-size: large;
     /* border: solid 1px white; */
@@ -73,7 +74,7 @@
     height: 50%;
     /* border: solid 1px white; */
     width: 50%;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 .icon {
@@ -89,7 +90,7 @@
     height: 2px;
     background-color: #1f221f;
     margin-top: 16px;
-    margin-left: 600px;
+    margin: auto;
 }
 
 .seperatorblob2 {
@@ -98,7 +99,7 @@
     position: absolute;
     display: flex;
     justify-content: center;
-    margin-left: 678px;
+    margin: auto;
     padding-top: 12px;
 }
 
@@ -106,4 +107,63 @@
     width: 35px;
     border-radius: 10px;
     background-color: #5658dd;
+}
+
+@media screen and (max-width: 480px) {
+    .left {
+        box-shadow: 0 0 0 0;
+        padding-left: 1rem;
+    }
+
+    .left1 {
+        margin-left: 2vw;
+        height: 21rem;
+    }
+
+    .content {
+        flex-direction: column;
+        width: 90vw;
+        margin-left: 0px;
+    }
+
+    .right {
+        margin-top: 15px;
+        width: 69%;
+    }
+
+    .left {
+        width: 67%;
+        padding-left: 4rem;
+    }
+
+    .left2 div {
+        padding-left: 9px;
+        height: 51px;
+        padding-top: 0px;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 30px;
+        font-weight: 600;
+        border: solid 1px whitesmoke;
+        padding-top: 20px;
+        margin-top: -1rem;
+    }
+
+    .right {
+        padding-left: 2rem;
+    }
+
+    .seperatorline2 {
+        width: 77%;
+    }
+}
+
+@media screen and (max-width: 318px) {
+    .right {
+        padding-left: 0rem;
+
+    }
 }

@@ -24,7 +24,7 @@
   display: flex;
   /* border: solid 1px white; */
   /* border: solid 1px black; */
-  height: 77vh;
+  height: 100vh;
 
 }
 
@@ -50,14 +50,14 @@
 }
 
 .r-title {
-  padding-top: 91px;
+  padding-top: 1rem;
   font-size: 55px;
-  padding-left: 104px;
+  padding-left: 50px;
 }
 
 .r-subtitle {
   color: #e6bd18;
-  padding-left: 104px;
+  padding-left: 50px;
   font-family: 'Poppins';
   font-weight: 400
 }
@@ -79,26 +79,28 @@
 
 .rc2up {
   display: flex;
+  flex-direction: column;
 }
 
 .rc2name {
   margin-left: 50px;
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 
 .rc2mail {
   margin-left: 50px;
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 
 .rc2msg {
-  padding-top: 10px;
+  /* padding-top: 10px; */
   margin-left: 50px;
 }
 
 .rc2name1 {
   font-family: 'Poppins';
-  font-weight: 400
+  font-weight: 400;
+  padding-top: 1rem;
 }
 
 .rc2mail1 {
@@ -132,12 +134,11 @@
 }
 
 form {
-  margin-top: 20px;
+  margin-top: 1rem;
 }
 
 input {
   width: 50%;
-  height: 50px;
   border: 1px solid gray;
   border-bottom: 1px solid gray;
   margin: 10px 0px;
@@ -165,28 +166,21 @@ button {
   cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
-  .c-wrapper {
-    display: grid;
-    padding: 0px 50px;
-  }
+/* .rc2mail1 input {
+  width: 35vw;
+} */
 
-  .c-title {
-    font-size: 30px;
-  }
-
-  .c-info-item {
-    margin: 20px 0px;
-    width: 100%;
-  }
-
-  button {
-    margin-top: 10px;
-  }
-
-  .r-content {
-    display: grid;
-  }
+.button2 {
+  border: none;
+  padding: 15px;
+  background-color: #e6bd18;
+  color: #151719;
+  font-weight: 500;
+  cursor: pointer;
+  width: 140px;
+  margin-left: 50px;
+  border-radius: 20px;
+  /* margin-top: 20px; */
 }
 
 .gotop {
@@ -235,15 +229,114 @@ button {
   background-color: #5658dd;
 }
 
-.button2 {
-  border: none;
-  padding: 15px;
-  background-color: #e6bd18;
-  color: #151719;
-  font-weight: 500;
-  cursor: pointer;
-  width: 140px;
-  margin-left: 50px;
-  border-radius: 20px;
-  margin-top: 20px;
+.mail1 {
+  width: 35vw;
+  height: 5rem;
+}
+
+@media screen and (max-width: 660px) {
+  .c {
+    height: 106vh;
+  }
+
+  .c-bg {
+    width: 20px;
+    height: 114%;
+  }
+
+  .c-wrapper {
+    display: grid;
+    padding: 0px 22px;
+  }
+
+  .c-right {
+    margin-left: 0px;
+    width: 92vw;
+  }
+
+  .r-title {
+    padding-left: 0px;
+    padding-top: 13px;
+  }
+
+  .rc1-title {
+    margin-top: 15px;
+    padding-left: 1rem;
+    margin-bottom: 5px;
+  }
+
+  .rc1-subtitle {
+    padding-left: 1rem;
+  }
+
+  .r-subtitle {
+    padding-left: 0px;
+
+  }
+
+  .r-socials {
+    display: grid;
+  }
+
+  .rc1 {
+    padding-left: 0px;
+  }
+
+  .rc2up {
+    flex-direction: column;
+    padding-left: 0px;
+  }
+
+  .rc2msg {
+    margin-left: 1rem;
+  }
+
+  .rc2mail1 input {
+    width: 35vw;
+  }
+
+  .c-title {
+    font-size: 30px;
+  }
+
+  .c-info-item {
+    margin: 20px 0px;
+    width: 100%;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+
+  .r-content {
+    flex-direction: column-reverse;
+  }
+
+  .rc2mail {
+    padding-left: 18px;
+    margin-left: 0px;
+    padding-top: 15px;
+  }
+
+
+  .rc2name {
+    margin-left: 0px;
+    padding-left: 18px;
+    padding-top: 15px;
+  }
+
+  .button2 {
+    margin-left: 15px;
+  }
+
+  .mail1 {
+    width: 75vw;
+    height: 4rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .c-bg {
+    height: 123%;
+  }
 }

@@ -1,23 +1,26 @@
+import personal from './img/personal.png';
+import oxygen from './img/oxygen.png';
+import expense from './img/expense.png';
 export const products = [
   {
     id: 1,
-    name: "LinkedIn Clone",
-    img: "https://th.bing.com/th/id/OIP.7pQ7jgC-MSi_YHNPKYlAWwHaEo?w=290&h=181&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-    link: "",
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum Lorem Ipsum is simply dummy text",
+    name: "Oxygen Gym App",
+    img: oxygen,
+    link: "https://oxygengym.netlify.app/",
+    text: "Developed a workout app , made using Reactjs which suggest different workouts of muscles we search in search bar. All the wokout are fetched by Rapid Api and there video tutorial are alos availble from youtube and it also suggests similar target muscle exercise and similar equipment exercise",
   },
   {
     id: 2,
-    name: "Netflix Clone",
-    img: "https://th.bing.com/th/id/OIP.n3OeSGW7JNo2T-W99eafKAHaDt?w=334&h=175&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-    link: "",
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum Lorem Ipsum is simply dummy text",
+    name: "VB News India",
+    img: expense,
+    link: "https://github.com/aryansingla/NewsIndia",
+    text: "Developed a wesbite to get news of different categories like finance , entertainment , science etc.Its a completely responsive website",
   },
   {
     id: 3,
     name: "Personal Portfolio",
-    img: "https://media.istockphoto.com/photos/portrait-of-indian-man-face-outdoors-looking-at-camera-picture-id1333001232?k=20&m=1333001232&s=612x612&w=0&h=sc5jeI9vP25DOPqI1H1sC4mGsfrCIecZsDVW3PVmpB0=",
+    img: personal,
     link: "",
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum Lorem Ipsum is simply dummy text",
+    text: "Developed a personal portfolio project with ReactJs to showcase all my work , provide my contact details , my resume , my academic details , my hobbies and my social nmedia links.I gained knoweldge of how to use hooks , different css properties through this.",
   },
 ];

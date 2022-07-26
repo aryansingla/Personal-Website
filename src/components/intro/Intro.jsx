@@ -5,6 +5,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
+import AryanResume from "./AryanResume.pdf";
 const Intro = () => {
     return (
         <>
@@ -42,7 +43,9 @@ const Intro = () => {
                             <a className="left-btn1" href="#c">
                                 Hire Me
                             </a>
-                            <div className="left-btn2">Get Resume</div>
+                            <a href={AryanResume} download target="_blank">
+                            <button className="left-btn2">Get Resume</button>
+                            </a>
                         </div>
                     </div>
 
@@ -51,24 +54,32 @@ const Intro = () => {
                     </div>
 
                     <div className="social-handles">
+                        <a href="https://www.linkedin.com/in/aryan-singla-26b7481b7">
                         <div>
                             <AiFillLinkedin
                                 className="social-icons"
                                 id="Linkedin"
                             />
                         </div>
+                        </a>
+                        <a href="https://github.com/aryansingla">
                         <div>
                             <AiFillGithub
                                 className="social-icons"
                                 id="Github"
                             />
                         </div>
+                        </a>
+                        <a href="https://twitter.com/singla_aryan11">
                         <div>
                             <BsTwitter className="social-icons" id="Twitter" />
                         </div>
+                        </a>
+                        <a href="https://www.instagram.com/singlaaryan_1102/">
                         <div>
                             <BsInstagram className="social-icons" id="Insta" />
                         </div>
+                        </a>
                     </div>
                 </div>
 

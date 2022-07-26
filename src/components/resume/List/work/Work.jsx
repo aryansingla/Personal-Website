@@ -8,19 +8,19 @@ const Work = () => {
             <div className="bullet"></div>
           </div>
           <div className="ed1">
-            <h5>ZEDSOFTPOINT SOLUTIONS</h5>
-            <p>Front-End Developer Intern</p>
+            <h5>HASHDEFINE HACKATHON</h5>
+            <p>Front-End Developer</p>
       </div>
             <div className="ed2">
               <div className="year">
-                May 2022-Present
+                May 2022
               </div>
             </div>
         </div>
         <div className="text">
-        <div className="textA">Currently working as MERN stack web developer</div>
-            <div className="textB"> - Developed an ecommerce website for client with the dashboard for managing the products, managing reviews, users, payment etc. .</div>
-            <div className="textB"> - I stretch my mental capacity to develope UI as per the given designs.</div>
+      
+            <div className="textB"> - Developed a website for user to select volunteer for NGOs and can donate into them. </div>
+            <div className="textB"> - I stretchd my mental capacity to develope UI as much as good as possible.</div>
             </div>
             <div className="ed">
           <div className="ed0">

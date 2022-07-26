@@ -116,3 +116,22 @@
         width: 90%;
     }
 }
+
+@media screen and (max-width:480px) {
+    .ps-container {
+        margin-left: -4px;
+        margin-top: 15px;
+    }
+
+    .rightps {
+        padding-left: 30px;
+    }
+
+    .ps-bar {
+        width: 8rem;
+    }
+
+    .right {
+        padding-left: 1rem;
+    }
+}
