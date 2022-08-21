@@ -53,7 +53,7 @@ p {
   }
 }
 
-@media screen and (max-width: 316px) {
+@media screen and (max-width: 370px) {
   .p {
     height: 67vh;
   }
