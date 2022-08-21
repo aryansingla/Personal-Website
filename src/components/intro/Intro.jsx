@@ -5,7 +5,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
-import AryanResume from "./AryanResume.pdf";
+import AryanResume from "./Aryan_Singla_Resume.pdf";
 const Intro = () => {
     return (
         <>
