@@ -35,6 +35,7 @@ const Intro = () => {
                                 </div>
                             </div> */}
                         <p className="i-desc">
+                            Full-Stack Intern at Itmbt Technologies.
                             I design and develop services for customers of all
                             sizes, specializing in creating stylish, modern
                             websites, web services and online stores.
