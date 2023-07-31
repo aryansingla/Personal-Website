@@ -1,6 +1,6 @@
 .p {
+  height:30rem;
   width: 30%;
-  height: 58vh;
   margin: 20px 10px;
   border: 2px solid black;
   border-radius: 10px 10px 0px 0px;
@@ -44,4 +44,9 @@ p {
   height: 150px;
 }
 
-@media screen and (max-width: 370px) {}
+@media screen and (max-width: 420px) {
+  .p{
+    width:95%;
+    
+  }
+}
