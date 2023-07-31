@@ -1,5 +1,5 @@
 import "./intro.css";
-import Profilepic from "../../img/Profilepic.jpg";
+import Profilepic from "../../img/AryanPic.jpg";
 import triangle2 from "../../img/triangle2.png";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
