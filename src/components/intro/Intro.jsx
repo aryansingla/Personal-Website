@@ -35,10 +35,7 @@ const Intro = () => {
                                 </div>
                             </div> */}
                         <p className="i-desc">
-                            Full-Stack Intern at Itmbt Technologies.
-                            I design and develop services for customers of all
-                            sizes, specializing in creating stylish, modern
-                            websites, web services and online stores.
+                        My commitment to staying up-to-date with the latest industry trends and advancements ensures that I can leverage cutting-edge technologies and best practices to drive innovation within your projects. I am a quick learner, always eager to expand my skill set and adapt to new challenges, making me an ideal fit for a fast-paced and dynamic work environment.
                         </p>
                         <div className="i-btn">
                             <a className="left-btn1" href="#c">

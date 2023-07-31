@@ -9,7 +9,7 @@ const Education = () => {
           </div>
           <div className="ed1">
             <h5>GGS INDRAPRASTHA UNIVERSITY(IPU,DELHI)</h5>
-            <p>Bachelor of Technology (CSE)</p>
+            <p>Bachelor of Technology (CSE) (9.438 CGPA)</p>
             </div>
             <div className="ed2">
               <div className="year">
@@ -23,7 +23,7 @@ const Education = () => {
           </div>
           <div className="ed1">
             <h5>TAGORE PUBLIC SCHOOL</h5>
-            <p>12th Standard</p>
+            <p>12th Standard  (92%)</p>
             </div>
             <div className="ed2">
               <div className="year">
@@ -37,7 +37,7 @@ const Education = () => {
           </div>
           <div className="ed1">
             <h5>TAGORE PUBLIC SCHOOL</h5>
-            <p>10th Standard</p>
+            <p>10th Standard (8.6 CGPA)</p>
             </div>
             <div className="ed2">
               <div className="year">

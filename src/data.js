@@ -1,27 +1,27 @@
-import personal from './img/personal.png';
+import dukaandaar from './img/dukaandaar.png';
 import oxygen from './img/oxygen.png';
-import newsapp_ss from './img/newsapp_ss.png';
+import Collabx from './img/Collabx.jpeg';
 
 export const products = [
   {
     id: 1,
-    name: "Oxygen Gym App",
-    img: oxygen,
-    link: "https://oxygengym.netlify.app/",
-    text: "Developed a workout app , made using Reactjs which suggest different workouts of muscles we search in search bar. All the wokout are fetched by Rapid Api and there video tutorial are alos availble from youtube and it also suggests similar target muscle exercise and similar equipment exercise",
+    name: "Dukaan Daar",
+    img: dukaandaar,
+    link: "https://dukaan-daar.vercel.app/",
+    text: "Made using MERN STACK ,This website is an innovative, user-friendly website for seamless online grocery shopping. Spearheaded real-time order tracking,secure payment integration,an intuitive UI with authentication & forgot password functionality.Includes comprehensive order history and user-admin dashboards for personalized experiences.",
   },
   {
     id: 2,
-    name: "VB News India",
-    img: newsapp_ss,
-    link: "https://github.com/aryansingla/NewsIndia",
-    text: "Developed a wesbite to get news of different categories like finance , entertainment , science etc.Its a completely responsive website",
+    name: "CollabX",
+    img: Collabx,
+    link: "https://collabx-beta.vercel.app/",
+    text: "CollabX is a decentralized community platform that enables hustlers to collaborate on projects. It facilitates transparent decision-making through decentralized voting and builds trust with a reputation system. The platform also offers token incentives, connects individuals, and showcases projects.I handled Front-end part in this. Tech Used : ReactJs, DaisyUI, BlockChain",
   },
   {
     id: 3,
-    name: "Personal Portfolio",
-    img: personal,
-    link: "https://aryansingla.netlify.app/",
-    text: "Developed a personal portfolio project with ReactJs to showcase all my work , provide my contact details , my resume , my academic details , my hobbies and my social nmedia links.I gained knoweldge of how to use hooks , different css properties through this.",
+    name: "Oxygen Gym App",
+    img: oxygen,
+    link: "https://oxygengym.netlify.app/",
+    text: "Website which shows 1000+ workouts of different body parts with code structure and architecture.User can search for workout of any muscle possible and its youtube tutorial done with RAPID API.Used REACT Js , JAVASCRIPT , RAPID API, MATERIAL UI , NETLIFY for hosting",
   },
 ];
